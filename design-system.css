@@ -94,6 +94,9 @@ a {
     .navbar__links--open, .side-nav--open {
         display: block;
     }
+    .primary-side-nav {
+        display: none;
+    }
 }
 /* Hover state for side navigation links */
 .side-nav__link:hover {
