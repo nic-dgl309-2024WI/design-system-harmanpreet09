@@ -21,6 +21,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--primary-bg-color);
 }
 
 .navbar__links {
@@ -89,6 +90,8 @@ a {
     .side-nav {
         display: block;
         flex-direction: column;
+        background-color: var(--primary-bg-color);
+        width: 20%;
     }
 
     .navbar__links--open, .side-nav--open {

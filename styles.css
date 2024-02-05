@@ -1,11 +1,11 @@
 /* variables */
-:root{
-    --clr-primary: #000;
-    --clr-secondary: #333333;
-    --clr-accent: #333333;
-    --clr-light: #CCCCCC;
-    --clr-white: #fff;
+:root {
+    --primary-text-color: #635147; /* Umber */
+    --primary-bg-color: #e2e0d9; /* Alabaster */
+    --accent-color: #FF7F50; /* Coral */
 }
+
+
 /* css reset */
 *{
     box-sizing: border-box;
