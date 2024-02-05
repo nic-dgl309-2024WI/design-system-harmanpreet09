@@ -95,3 +95,14 @@ a {
         display: block;
     }
 }
+/* Hover state for side navigation links */
+.side-nav__link:hover {
+    color: var(--clr-hover);
+    text-decoration: underline; 
+}
+
+/* Active state for side navigation links */
+.side-nav__link--active {
+    color: var(--clr-accent); /* Adjust the color to indicate active link */
+    
+}

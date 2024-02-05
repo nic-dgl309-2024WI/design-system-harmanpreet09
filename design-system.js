@@ -10,3 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
         sideNav.classList.toggle('side-nav--open'); // Adjust if your BEM naming for open state is different
     });
 });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     // Get current page URL
+//     const currentPage = window.location.pathname;
+    
+//     // Query all side navigation links
+//     const links = document.querySelectorAll('.side-nav__link');
+
+//     links.forEach(link => {
+//         if (link.href.includes(currentPage)) {
+//             // Add --active modifier class to the current page link
+//             link.classList.add('side-nav__link--active');
+//         }
+//     });
+// });
