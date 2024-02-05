@@ -40,6 +40,9 @@ a {
     background-color: var(--clr-secondary);
     margin: 5px;
 }
+.swatch__info{
+    color: var(--primary-text-color);
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {
