@@ -14,7 +14,9 @@
 
 /* typography */
 
-
+:root{
+    --heading-font:"Cormorant Garamond", serif;
+}
 /* css reset */
 *{
     box-sizing: border-box;
