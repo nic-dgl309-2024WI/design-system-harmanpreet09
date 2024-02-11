@@ -1,8 +1,9 @@
 /* variables */
 :root {
-    --primary-text-color: #ffffff; /* Umber */
+    --primary-text-color: #ffffff; 
     --primary-bg-color: #e2e0d9; /* Alabaster */
     --accent-color: #FF7F50; /* Coral */
+    --active-color: #ff4404 !important;
 }
 .text-umber { color: #635147; }
 .bg-umber { background-color: #635147; }
@@ -10,9 +11,6 @@
 .bg-alabaster { background-color: #e2e0d9; }
 .text-coral { color: #FF7F50; }
 .bg-coral { background-color: #FF7F50; }
-
-
-
 /* css reset */
 *{
     box-sizing: border-box;

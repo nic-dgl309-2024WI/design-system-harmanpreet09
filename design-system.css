@@ -79,12 +79,7 @@ a {
     }
 }
 
-/* .side-nav {
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in;
-} */
 
-/* Modifier for open state of side-nav */
 .side-nav--open {
     transform: translateX(0);
 }
@@ -106,12 +101,12 @@ a {
 }
 /* Hover state for side navigation links */
 .side-nav__link:hover {
-    color: var(--clr-hover);
+    color: var(--accent-color);
     text-decoration: underline; 
 }
 
 /* Active state for side navigation links */
 .side-nav__link--active {
-    color: var(--clr-accent); /* Adjust the color to indicate active link */
+    color: var( --active-color) !important; 
     
 }
