@@ -16,6 +16,7 @@
 
 :root{
     --heading-font:"Cormorant Garamond", serif;
+    --body-font:"Roboto", sans-serif;
 }
 /* css reset */
 *{
