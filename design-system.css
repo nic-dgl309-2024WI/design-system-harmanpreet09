@@ -44,6 +44,8 @@ a {
     color: var(--primary-text-color);
 }
 
+  
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .navbar__links {
