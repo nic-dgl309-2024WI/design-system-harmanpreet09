@@ -71,10 +71,10 @@ li
 }
 /* utility classes */
 /* font-families */
-.ff-heading{
+.u-ff-heading{
     font-family:var(--heading-font) ;
 }
-.ff-body{
+.u-ff-body{
     font-family: var(--body-font);
 }
 /* font-sizes */
@@ -90,3 +90,9 @@ h3{
 p{
     font-size: var(--body-text);
 }
+/* font-weights */
+.u-fw-200{font-weight: var(--fw-200);}
+.u-fw-300{font-weight: var(--fw-300);}
+.u-fw-400{font-weight: var(--fw-400);}
+.u-fw-500{font-weight: var(--fw-500);}
+.u-fw-700{font-weight: var(--fw-700);}
