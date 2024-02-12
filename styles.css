@@ -98,6 +98,8 @@ li
 .u-fw-400{font-weight: var(--fw-400);}
 .u-fw-500{font-weight: var(--fw-500);}
 .u-fw-700{font-weight: var(--fw-700);}
+.u-fw-800{font-weight: var(--fw-800);}
+.u-fw-900{font-weight: var(--fw-900);}
 /* line height */
 .u-lh{
     line-height: var(--heading-line-height);
