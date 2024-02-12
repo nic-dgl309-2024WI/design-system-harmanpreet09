@@ -15,8 +15,13 @@
 /* typography */
 
 :root{
+    /* font-families */
     --heading-font:"Cormorant Garamond", serif;
     --body-font:"Roboto", sans-serif;
+}
+:root{
+    --heading-1:32px;
+
 }
 /* css reset */
 *{
