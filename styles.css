@@ -103,3 +103,10 @@ p{
 .u-lb{
     line-height: var(--body-line-height);
 }
+/* letter spacing */
+.u-lhs{
+    letter-spacing: var(--heading-letter-spacing);
+}
+u.hbs{
+    letter-spacing: var(--body-letter-spaing);
+}
