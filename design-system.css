@@ -48,6 +48,17 @@ a {
 .typography_heading{
     margin: 2%;
 }
+.typography__row {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .typography__level,
+  .typography__size,
+  .typography__weight {
+    margin-right: 16px;
+  }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
