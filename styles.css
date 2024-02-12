@@ -78,16 +78,16 @@ li
     font-family: var(--body-font);
 }
 /* font-sizes */
-h1{
+.u-fontsize-heading-1{
     font-size: var( --heading-1);
 }
-h2{
+.u-fontsize-heading-2{
     font-size: var(--heading-2);
 }
-h3{
+.u-fontsize-heading-3{
     font-size: var(--heading-3);
 }
-p{
+.u-body-text{
     font-size: var(--body-text);
 }
 /* font-weights */
