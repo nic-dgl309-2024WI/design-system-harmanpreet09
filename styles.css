@@ -60,5 +60,10 @@ li
     --fw-500:500;
     --fw-700:700;
 }
+:root{
+    /* line-heights */
+    --heading-line-height:1.2;
+    --body-line-height:1.4;
+}
 
 
