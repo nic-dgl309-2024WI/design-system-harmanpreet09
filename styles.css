@@ -65,5 +65,7 @@ li
     --heading-line-height:1.2;
     --body-line-height:1.4;
 }
-
-
+:root{
+    --heading-letter-spacing:0.02em;
+    --body-letter-spaing:0.002em;
+}
