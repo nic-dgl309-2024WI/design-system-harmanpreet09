@@ -44,7 +44,10 @@ a {
     color: var(--primary-text-color);
 }
 
-
+/* typography */
+.typography_heading{
+    margin: 2%;
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {
