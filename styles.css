@@ -52,5 +52,13 @@ li
     --heading-3:12px;
     --body-text:16px;
 }
+:root{
+    /* font-weights */
+    --fw-200:200;
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-700:700;
+}
 
 
