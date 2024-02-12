@@ -77,3 +77,16 @@ li
 .ff-body{
     font-family: var(--body-font);
 }
+/* font-sizes */
+h1{
+    font-size: var( --heading-1);
+}
+h2{
+    font-size: var(--heading-2);
+}
+h3{
+    font-size: var(--heading-3);
+}
+p{
+    font-size: var(--body-text);
+}
