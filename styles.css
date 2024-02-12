@@ -69,3 +69,11 @@ li
     --heading-letter-spacing:0.02em;
     --body-letter-spaing:0.002em;
 }
+/* utility classes */
+/* font-families */
+.ff-heading{
+    font-family:var(--heading-font) ;
+}
+.ff-body{
+    font-family: var(--body-font);
+}
