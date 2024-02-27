@@ -95,7 +95,22 @@ a {
   .typography__weight {
     margin-right: 16px;
   }
-
+  .typography__table {
+    width: 52%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .typography__head-row {
+    background-color: var(--umber-color);
+    color: var(--primary-text-color);
+  }
+  
+  .typography__head-cell,
+  .typography__cell {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
 /* Mobile Styles */
 @media (max-width: 768px) {
     .navbar__links {
