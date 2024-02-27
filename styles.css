@@ -10,6 +10,7 @@
     --umber-color:#635147;
     
 }
+/* Utility class for colors */
 .u-text-umber { color: var(--umber-color); }
 .u-bg-umber { background-color: var(--umber-color); }
 .u-text-alabaster { color: var(--primary-text-color); }
