@@ -61,13 +61,13 @@
     font-family: var(--body-font);
 }
 /* font-sizes */
-.u-fontsize-heading-1{
+.u-fontsize-large{
     font-size: var( --heading-1);
 }
-.u-fontsize-heading-2{
+.u-fontsize-regular{
     font-size: var(--heading-2);
 }
-.u-fontsize-heading-3{
+.u-fontsize-small{
     font-size: var(--heading-3);
 }
 .u-body-text{
