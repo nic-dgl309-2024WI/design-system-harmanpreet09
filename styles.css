@@ -95,6 +95,29 @@
 u.hbs{
     letter-spacing: var(--body-letter-spaing);
 }
+/* utilities classes for spacing */
+/* Margin tops */
+
+.l-mt-0{
+    margin-top: 0;
+}
+.l-mt-1{
+    margin-top: 1rem;
+}
+.l-mt-2{
+    margin-top: 1.25rem;
+}
+.l-mt-3{
+    margin-top: 1.5rem;
+}
+.l-mt-4{
+    margin-top: 2rem;
+}
+.l-mt-5{
+    margin-top: 2.5rem;
+}
+
+
 /* css reset */
 *{
     box-sizing: border-box;
@@ -111,6 +134,9 @@ p,
 figure,
 picture{
     margin: 0;
+}
+body{
+    line-height: 1.5rem;
 }
 
 /* Remove padding from lists */

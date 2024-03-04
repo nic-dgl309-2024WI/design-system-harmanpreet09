@@ -79,7 +79,12 @@ a {
     border: 0;
     font-size: 16px;
   }
+  .side-nav {
+    float: left;
+    width: 200px; /* or whatever width you prefer */
+  }
   
+ 
 /* typography */
 .typography_heading{
     margin: 2%;
