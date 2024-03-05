@@ -415,7 +415,35 @@ u.hbs{
     gap: 8px;
   }
   
+  /* Base (Mobile First) */
+.container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl, .container-fluid {
+    width: 100%;
+}
 
+/* Small devices (>= 576px) */
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+/* Large devices (>= 992px) */
+@media (min-width: 992px) {
+    .container, .container-lg {
+        max-width: 960px;
+    }
+}
+/* X-Large devices (>= 1200px) */
+@media (min-width: 1200px) {
+    .container, .container-xl {
+        max-width: 1140px;
+    }
+}
+/* XX-Large devices (>= 1400px) */
+@media (min-width: 1400px) {
+    .container, .container-xxl {
+        max-width: 1320px;
+    }
+}
 /* css reset */
 *{
     box-sizing: border-box;
