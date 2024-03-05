@@ -250,6 +250,25 @@ u.hbs{
  padding-top: 2.5rem;
 }
 
+/* padding bottom */
+.l-pb-0{
+    padding-bottom: 0;
+}
+.l-pb-1{
+    padding-bottom: 1rem;
+}
+.l-pb-2{
+    padding-bottom: 1.25rem;
+}
+.l-pb-3{
+    padding-bottom: 1.5rem;
+}
+.l-pb-4{
+ padding-bottom: 2rem;
+}
+.l-pb-5{
+ padding-bottom: 2.5rem;
+}
 /* css reset */
 *{
     box-sizing: border-box;
