@@ -229,6 +229,27 @@ u.hbs{
 .l-m-auto{
     margin: auto;
 }
+
+/* padding top */
+.l-pt-0{
+    padding-top: 0;
+}
+.l-pt-1{
+    padding-top: 1rem;
+}
+.l-pt-2{
+    padding-top: 1.25rem;
+}
+.l-pt-3{
+    padding-top: 1.5rem;
+}
+.l-pt-4{
+ padding-top: 2rem;
+}
+.l-pt-5{
+ padding-top: 2.5rem;
+}
+
 /* css reset */
 *{
     box-sizing: border-box;
