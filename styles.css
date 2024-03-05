@@ -335,6 +335,31 @@ u.hbs{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
+/* padding top and bottom */
+.l-py-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.l-py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.l-py-2{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.l-py-3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.l-py-4{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.l-py-5{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
 
 /* css reset */
 *{
