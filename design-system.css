@@ -178,6 +178,7 @@ a {
 
 .side-nav--open {
     transform: translateX(0);
+    width: 100%;
 }
 
 @media (min-width: 1140px) {

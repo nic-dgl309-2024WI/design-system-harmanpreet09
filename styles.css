@@ -52,6 +52,9 @@
     --heading-letter-spacing:0.02em;
     --body-letter-spaing:0.002em;
 }
+:root {
+    overscroll-behavior: none;
+  }
 /* utility classes */
 /* font-families */
 .u-ff-heading{
