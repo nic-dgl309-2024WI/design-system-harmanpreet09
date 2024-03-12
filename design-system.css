@@ -111,9 +111,9 @@ a {
     margin-right: 16px;
   }
   .typography__table {
-    width: 73%;
+    width: 127%;
     border-collapse: collapse;
-    text-align: left;
+    text-align: center;
   }
   
   .typography__head-row {
@@ -124,7 +124,12 @@ a {
   .typography__head-cell,
   .typography__cell {
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #726e6e;
+  }
+  .typograohy_alphabets{
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 12px;
   }
 
   .spacing__text-align{

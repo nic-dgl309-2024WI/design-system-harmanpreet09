@@ -99,6 +99,25 @@ u.hbs{
     letter-spacing: var(--body-letter-spaing);
 }
 /* utilities classes for spacing */
+
+.l-m-0{
+    margin: 0;
+}
+.l-m-1{
+    margin: 1rem;
+}
+.l-m-2{
+    margin: 1.25rem;
+}
+.l-m-3{
+    margin: 1.5rem;
+}
+.l-m-4{
+    margin: 2rem;
+}
+.l-m-5{
+    margin: 2.5rem;
+}
 /* Margin tops */
 
 .l-mt-0{
@@ -233,6 +252,25 @@ u.hbs{
     margin: auto;
 }
 
+
+.l-p-0{
+    padding: 0;
+}
+.l-p-1{
+    padding: 1rem;
+}
+.l-p-2{
+    padding: 1.25rem;
+}
+.l-p-3{
+    padding: 1.5rem;
+}
+.l-p-4{
+ padding: 2rem;
+}
+.l-p-5{
+ padding: 2.5rem;
+}
 /* padding top */
 .l-pt-0{
     padding-top: 0;
