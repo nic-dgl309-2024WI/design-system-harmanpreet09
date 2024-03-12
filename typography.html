@@ -2,247 +2,280 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typography</title>
-    <!-- style sheets add -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="design-system.css">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- google fonts add -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography</title>
+  <!-- style sheets add -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="design-system.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- google fonts add -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Top Navbar -->
-    
+
   <nav class="navbar">
     <a href="index.html" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">Design System</a>
     <div class="navbar__hamburger">
-        <div class="navbar__hamburger-line"></div>
-        <div class="navbar__hamburger-line"></div>
-        <div class="navbar__hamburger-line"></div>
+      <div class="navbar__hamburger-line"></div>
+      <div class="navbar__hamburger-line"></div>
+      <div class="navbar__hamburger-line"></div>
     </div>
     <ul class="navbar__links toggle-display navbar__mobile">
-        <li class="navbar__item"><a href="about-me.html" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">About Me</a></li>
-        <li class="navbar__item"><a href="demo-site" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">Demo Site</a></li>
-    
+      <li class="navbar__item"><a href="about-me.html"
+          class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">About Me</a></li>
+      <li class="navbar__item"><a href="demo-site"
+          class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">Demo Site</a></li>
+
     </ul>
-</nav>
- <!-- Side navbar in mobile view -->
- <nav class="primary-side-nav">
-  <div class="primary-side-nav__section">
+  </nav>
+  <!-- Side navbar in mobile view -->
+  <nav class="primary-side-nav">
+    <div class="primary-side-nav__section">
       <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Branding</h4>
       <ul class="primary-side-nav__list">
-          <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link side-nav__link--active">01 Colours</a></li>
-          <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">02 Typography</a></li>
-          <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">03 Logo</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#"
+            class="primary-side-nav__link side-nav__link--active">01 Colours</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">02
+            Typography</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">03
+            Logo</a></li>
       </ul>
-  </div>
-  <div class="primary-side-nav__section">
-    <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Utilities</h4>
-    <ul class="primary-side-nav__list">
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">04 Spacing</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">05 Containers</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">06 Images</a></li>
-    </ul>
-</div>
-<div class="primary-side-nav__section">
-    <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Navigation</h4>
-    <ul class="primary-side-nav__list">
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">07 Navbars</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">08 Breadcrumbs</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">09 Pagination</a></li>
-    </ul>
-</div>
-<div class="primary-side-nav__section">
-    <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Blocks</h4>
-    <ul class="primary-side-nav__list">
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">10 Hero</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">11 Carousel</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">12 Slats</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">13 Footer</a></li>
-    </ul>
-</div>
-<div class="primary-side-nav__section">
-    <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Components</h4>
-    <ul class="primary-side-nav__list">
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">14 Cards</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">15 Forms</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">16 Accordion</a></li>
-        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">17 Lists</a></li>
-    </ul>
-</div>
- 
-</nav>
-<!-- Side navbar in desktop -->
-<div class="main-content u-bg-alabaster">
-<nav class="side-nav l-p-2">
-  <ul class="navbar__links toggle-display navbar__display">
-      <li class="navbar__item"><a href="about-me.html" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900">About Me</a></li>
-      <li class="navbar__item"><a href="demo-site" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900">Demo Site</a></li>
-  
-  </ul>
-  <div class="side-nav__section">
-      <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Branding</h4>
-      <ul class="side-nav__list">
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="colours.html" class="side-nav__link  ">01 Colours</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="typography.html " class="side-nav__link side-nav__link--active">02 Typography</a></li>
+    </div>
+    <div class="primary-side-nav__section">
+      <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Utilities</h4>
+      <ul class="primary-side-nav__list">
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">04
+            Spacing</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">05
+            Containers</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">06
+            Images</a></li>
+      </ul>
+    </div>
+    <div class="primary-side-nav__section">
+      <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Navigation</h4>
+      <ul class="primary-side-nav__list">
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">07
+            Navbars</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">08
+            Breadcrumbs</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">09
+            Pagination</a></li>
+      </ul>
+    </div>
+    <div class="primary-side-nav__section">
+      <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Blocks</h4>
+      <ul class="primary-side-nav__list">
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">10
+            Hero</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">11
+            Carousel</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">12
+            Slats</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">13
+            Footer</a></li>
+      </ul>
+    </div>
+    <div class="primary-side-nav__section">
+      <h4 class="primary-side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Components</h4>
+      <ul class="primary-side-nav__list">
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">14
+            Cards</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">15
+            Forms</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">16
+            Accordion</a></li>
+        <li class="primary-side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="primary-side-nav__link">17
+            Lists</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- Side navbar in desktop -->
+  <div class="main-content u-bg-alabaster">
+    <nav class="side-nav l-p-2">
+      <ul class="navbar__links toggle-display navbar__display">
+        <li class="navbar__item"><a href="about-me.html"
+            class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900">About Me</a></li>
+        <li class="navbar__item"><a href="demo-site" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900">Demo
+            Site</a></li>
+
+      </ul>
+      <div class="side-nav__section">
+        <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Branding</h4>
+        <ul class="side-nav__list">
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="colours.html" class="side-nav__link  ">01
+              Colours</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="typography.html "
+              class="side-nav__link side-nav__link--active">02 Typography</a></li>
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">03 Logo</a></li>
-      </ul>
-  </div>
-  <div class="side-nav__section">
-      <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Utilities</h4>
-      <ul class="side-nav__list">
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="spacing.html" class="side-nav__link ">04 Spacing</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="container.html" class="side-nav__link">05 Containers</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">06 Images</a></li>
-      </ul>
-  </div>
-  <div class="side-nav__section">
-      <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Navigation</h4>
-      <ul class="side-nav__list">
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">07 Navbars</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">08 Breadcrumbs</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">09 Pagination</a></li>
-      </ul>
-  </div>
-  <div class="side-nav__section">
-      <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Blocks</h4>
-      <ul class="side-nav__list">
+        </ul>
+      </div>
+      <div class="side-nav__section">
+        <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Utilities</h4>
+        <ul class="side-nav__list">
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="spacing.html" class="side-nav__link ">04
+              Spacing</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="container.html" class="side-nav__link">05
+              Containers</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">06 Images</a>
+          </li>
+        </ul>
+      </div>
+      <div class="side-nav__section">
+        <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Navigation</h4>
+        <ul class="side-nav__list">
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">07 Navbars</a>
+          </li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">08
+              Breadcrumbs</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">09 Pagination</a>
+          </li>
+        </ul>
+      </div>
+      <div class="side-nav__section">
+        <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Blocks</h4>
+        <ul class="side-nav__list">
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">10 Hero</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">11 Carousel</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">11 Carousel</a>
+          </li>
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">12 Slats</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">13 Footer</a></li>
-      </ul>
-  </div>
-  <div class="side-nav__section">
-      <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Components</h4>
-      <ul class="side-nav__list">
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">13 Footer</a>
+          </li>
+        </ul>
+      </div>
+      <div class="side-nav__section">
+        <h4 class="side-nav__title  u-fontsize-regular u-ff-heading u-fw-900">Components</h4>
+        <ul class="side-nav__list">
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">14 Cards</a></li>
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">15 Forms</a></li>
-          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">16 Accordion</a></li>
+          <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">16 Accordion</a>
+          </li>
           <li class="side-nav__item u-ff-body u-body-text u-fw-400"><a href="#" class="side-nav__link">17 Lists</a></li>
-      </ul>
-  </div>
-</nav>  
- 
-<!-- typography -->
-<section class="content container">
-  <h1 class="u-fontsize-large u-fw-900 u-ff-heading spacing__text-align l-mb-5">Typography</h1>
-    <section class="typograohy_alphabets l-p-5">
+        </ul>
+      </div>
+    </nav>
+
+    <!-- typography -->
+    <section class="content container">
+      <h1 class="u-fontsize-large u-fw-900 u-ff-heading spacing__text-align l-mb-5">Typography</h1>
+      <section class="typograohy_alphabets l-p-5">
         <h1 class="u-ff-heading">Font Family(Class Name:-u-ff-heading )</h1>
+        <div class="u-ff-heading">
+          <h2 class="u-ff-heading typography_heading">Cormorant Garamond ,serif</h2>
           <div class="u-ff-heading">
-            <h2 class="u-ff-heading typography_heading">Cormorant Garamond ,serif</h2>
-            <div class="u-ff-heading">
-              <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
-              <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-              <p>0 1 2 3 4 5 6 7 8 9</p>
-            </div>
+            <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
+            <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+            <p>0 1 2 3 4 5 6 7 8 9</p>
           </div>
+        </div>
+        <div class="u-ff-body">
+          <h2 class="u-ff-body typography_heading"> Roboto,sans-serif (Class Name:-u-ff-body)</h2>
           <div class="u-ff-body">
-            <h2 class="u-ff-body typography_heading"> Roboto,sans-serif (Class Name:-u-ff-body)</h2>
-            <div class="u-ff-body">
-              <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
-              <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-              <p>0 1 2 3 4 5 6 7 8 9</p>
-            </div>
+            <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
+            <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+            <p>0 1 2 3 4 5 6 7 8 9</p>
           </div>
+        </div>
+      </section>
+      <!-- utility section -->
+      <div class="utilities">
+        <h2 class="u-ff-heading typography_heading">Utility Classes</h2>
+        <table class="typography__table">
+          <thead>
+            <tr class="typography__head-row">
+              <th class="typography__head-cell">Element</th>
+              <th class="typography__head-cell">Utility Classes(font-family,font-size)</th>
+              <th class="typography__head-cell">Utility classes (font-weight)</th>
+              <th class="typography__head-cell">Examples</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-large</td>
+              <td class="typography__cell">u-fw-400(Regular)</td>
+              <td class="typography__cell u-fontsize-large u-fw-400 u-ff-heading">Heading-1</td>
+
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
+              <td class="typography__cell">u-fw-500 (Regular)</td>
+              <td class="typography__cell u-fontsize-regular u-fw-500 u-ff-heading">Heading-2</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
+              <td class="typography__cell">u-fw-700 (Regular)</td>
+              <td class="typography__cell u-fontsize-small u-fw-700 u-ff-heading">Heading-3</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading,u-fontsize-large</td>
+              <td class="typography__cell">u-fw-800 (Medium)</td>
+              <td class="typography__cell u-fontsize-large u-fw-800 u-ff-heading">Heading-1</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
+              <td class="typography__cell">u-fw-800 (Medium)</td>
+              <td class="typography__cell u-fontsize-regular u-fw-800 u-ff-heading">Heading-2</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
+              <td class="typography__cell">u-fw-800 (Medium)</td>
+              <td class="typography__cell u-fontsize-small u-fw-800 u-ff-heading">Heading-2</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-large</td>
+              <td class="typography__cell">u-fw-900 (Bold)</td>
+              <td class="typography__cell u-fontsize-large u-fw-900 u-ff-heading">Heading-1</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
+              <td class="typography__cell">u-fw-900 (Bold)</td>
+              <td class="typography__cell u-fontsize-regular u-fw-900 u-ff-heading">Heading-1</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Cormorant Garamond, serif</td>
+              <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
+              <td class="typography__cell">u-fw-900 (Bold)</td>
+              <td class="typography__cell u-fontsize-small u-fw-900 u-ff-heading">Heading-1</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Roboto, sans-serif</td>
+              <td class="typography__cell">u-ff-body, u-body-text</td>
+              <td class="typography__cell">u-fw-500 (Regular)</td>
+              <td class="typography__cell u-ff-body u-fw-500 u-body-text">Paragraph</td>
+            </tr>
+            <tr class="typography__body-row">
+              <td class="typography__cell">Roboto, sans-serif</td>
+              <td class="typography__cell">u-ff-body, u-body-text</td>
+              <td class="typography__cell">u-fw-800 (Medium)</td>
+              <td class="typography__cell u-ff-body u-fw-800 u-body-text">Paragraph</td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
-    <!-- utility section -->
-    <div class="utilities">
-      <h2 class="u-ff-heading typography_heading">Utility Classes</h2>
-      <table class="typography__table">
-        <thead>
-          <tr class="typography__head-row">
-            <th class="typography__head-cell">Element</th>
-            <th class="typography__head-cell">Utility Classes(font-family,font-size)</th>
-            <th class="typography__head-cell">Utility classes (font-weight)</th>
-            <th class="typography__head-cell">Examples</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-large</td>
-            <td class="typography__cell">u-fw-400(Regular)</td>
-            <td class="typography__cell u-fontsize-large u-fw-400 u-ff-heading">Heading-1</td>
-
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
-            <td class="typography__cell">u-fw-500 (Regular)</td>
-            <td class="typography__cell u-fontsize-regular u-fw-500 u-ff-heading">Heading-2</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
-            <td class="typography__cell">u-fw-700 (Regular)</td>
-            <td class="typography__cell u-fontsize-small u-fw-700 u-ff-heading">Heading-3</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading,u-fontsize-large</td>
-            <td class="typography__cell">u-fw-800 (Medium)</td>
-            <td class="typography__cell u-fontsize-large u-fw-800 u-ff-heading">Heading-1</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
-            <td class="typography__cell">u-fw-800 (Medium)</td>
-            <td class="typography__cell u-fontsize-regular u-fw-800 u-ff-heading">Heading-2</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
-            <td class="typography__cell">u-fw-800 (Medium)</td>
-            <td class="typography__cell u-fontsize-small u-fw-800 u-ff-heading">Heading-2</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-large</td>
-            <td class="typography__cell">u-fw-900 (Bold)</td>
-            <td class="typography__cell u-fontsize-large u-fw-900 u-ff-heading">Heading-1</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-regular</td>
-            <td class="typography__cell">u-fw-900 (Bold)</td>
-            <td class="typography__cell u-fontsize-regular u-fw-900 u-ff-heading">Heading-1</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Cormorant Garamond, serif</td>
-            <td class="typography__cell">u-ff-heading, u-fontsize-small</td>
-            <td class="typography__cell">u-fw-900 (Bold)</td>
-            <td class="typography__cell u-fontsize-small u-fw-900 u-ff-heading">Heading-1</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Roboto, sans-serif</td>
-            <td class="typography__cell">u-ff-body, u-body-text</td>
-            <td class="typography__cell">u-fw-500 (Regular)</td>
-            <td class="typography__cell u-ff-body u-fw-500 u-body-text">Paragraph</td>
-          </tr>
-          <tr class="typography__body-row">
-            <td class="typography__cell">Roboto, sans-serif</td>
-            <td class="typography__cell">u-ff-body, u-body-text</td>
-            <td class="typography__cell">u-fw-800 (Medium)</td>
-            <td class="typography__cell u-ff-body u-fw-800 u-body-text">Paragraph</td>
-
-          </tr>
-        </tbody>
-      </table>
-    </div>
-</section>
-</div>
-    <script src="design-system.js"></script>
+  </div>
+  <script src="design-system.js"></script>
 </body>
+
 </html>

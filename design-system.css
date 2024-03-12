@@ -22,7 +22,7 @@ a {
     justify-content: space-between;
    align-items: center;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -105,7 +105,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 113px;
+    margin-top: 32px;
   }
   
   .typography__level,
@@ -232,6 +232,9 @@ table, th, td {
 
 .css-table__body tr:nth-child(odd) {
     background-color: #f2f2f2;
+}
+.Introduction{
+    width: 33%;
 }
 
 /* Mobile Styles */

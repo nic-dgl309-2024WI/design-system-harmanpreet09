@@ -224,6 +224,10 @@ u.hbs{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
+.l-mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
 /* margins for top and bottom */
 .l-my-0{
     margin-top: 0;
@@ -490,6 +494,9 @@ u.hbs{
 
 .l-justify-center {
     justify-content: center;
+}
+.l-space-between{
+    justify-content: space-between;
 }
 
 .l-align-center {

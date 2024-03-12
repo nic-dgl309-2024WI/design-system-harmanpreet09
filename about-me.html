@@ -5,34 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css">
+     <!-- google fonts add -->
+     <link
+     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+     rel="stylesheet">
+ <link
+     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+     rel="stylesheet">
   </head>
-  <body>
-      <!-- add your name -->
-    <h1>Hi! My name is Harman Preet Kaur</h1>
-    <h2>I am a web designer</h2>
-    <!-- add your portrait photo -->
-    <img
-      src="images/pic.jpeg"
-      alt="Portrait of lorem ipsum"
-      style="width: 500px; height: 500px"
-    />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p>
-      Hi! everyone me Harman Preet Kaur, originally form Punjab, India. I completed my education Bachelor's of Science in Non-Medical from Panjab Univesrity. Also, worked as a web Designer in Altruist Technologies, Panchkula for almost one and half year. Currently, I am enrolled in Digital Design and development Post Graduate Diploma, Outside of academics I have keen interset in Dancing and playing Badminton.
-    </p>
-    <!-- add a list of your favourite web development tools. -->
-    <p>My favourite tools are</p>
-    <ul>
-      <li>Adobe photoshop</li>
-      <li>Adobe XD</li>
-      <li>Visual Studio</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p>My skills include</p>
-    <ul>
-      <li>HTML/CSS</li>
-      <li>Bootstrap</li>
-      <li>Adobe Photoshop</li>
-    </ul>
+  <body class=" u-bg-alabaster">
+
+    <nav class="navbar l-mb-5">
+      <a href="index.html" class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">Design System</a>
+      <div class="navbar__hamburger">
+          <div class="navbar__hamburger-line"></div>
+          <div class="navbar__hamburger-line"></div>
+          <div class="navbar__hamburger-line"></div>
+      </div>
+      <ul class="navbar__links toggle-display navbar__mobile">
+          <li class="navbar__item side-nav__link--active"><a href="about-me.html"
+                  class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">About Me</a></li>
+          <li class="navbar__item"><a href="demo-site"
+                  class="navbar__link  u-fontsize-regular u-ff-heading u-fw-900  l-p-2">Demo Site</a></li>
+
+      </ul>
+  </nav>
+  <div class="container Introduction l-mx-auto">
+       <!-- add your name -->
+       <h1 class="u-ff-heading u-fw-900 l-mb-3">Hi! My name is Harman Preet Kaur</h1>
+       <h2 class="u-ff-heading u-fw-800 l-mb-3">I am a web designer</h2>
+       <!-- add your portrait photo -->
+       <img
+         src="images/pic.jpeg"
+         alt="Portrait of lorem ipsum"
+         style="width: 500px; height: 500px"
+       />
+       <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
+       <p class="u-ff-body u-fw-500 l-mb-3">
+         Hi! everyone me Harman Preet Kaur, originally form Punjab, India. I completed my education Bachelor's of Science in Non-Medical from Panjab Univesrity. Also, worked as a web Designer in Altruist Technologies, Panchkula for almost one and half year. Currently, I am enrolled in Digital Design and development Post Graduate Diploma, Outside of academics I have keen interset in Dancing and playing Badminton.
+       </p>
+       <!-- add a list of your favourite web development tools. -->
+       
+       <div class="l-flex u-ff-body u-fw-500 l-space-between">
+        <div>
+          <p class=" u-ff-body u-fw-900 u-fontsize-regular">My favourite tools are</p>
+          <ul>
+            <li>Adobe photoshop</li>
+            <li>Adobe XD</li>
+            <li>Visual Studio</li>
+          </ul>
+        </div>
+        
+        <!-- add a list of your strongest web development skills. -->
+        <div>
+          <p class=" u-ff-body u-fw-900 u-fontsize-regular">My skills include</p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Bootstrap</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+        </div>
+       
+       </div>
+  </div>
+   
   </body>
 </html>
