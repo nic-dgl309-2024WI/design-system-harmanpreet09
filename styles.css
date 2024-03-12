@@ -20,7 +20,8 @@
 .u-bg-alabaster { background-color: var(--links-color); }
 .u-bg-coral { background-color: var(--accent-color); }
 .u-bg-neutral{background-color: var(--neutral-color);}
-.u-secondary text{color: var(--secondary-text-color);}
+.u-secondary text{color: var(--secondary-text-color);}g
+.u-primary-bg-color{background-color: var( --primary-bg-color);}
 
 /* typography */
 
