@@ -100,9 +100,12 @@ a {
     align-items: center;
     padding: 8px 0;
   }
-  .typography_content{
-    margin-left: 335px;
-    margin-top: 102px;
+  .content{
+  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 113px;
   }
   
   .typography__level,
@@ -141,6 +144,18 @@ a {
 .spacing-text {
     margin-left: 16%;
 }
+.Utility-classes__Margin{
+    display: flex;
+    justify-content: space-around;
+}
+.Utility-classes.l-p-5 {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 12px;
+}
+table, th, td {
+    border:1px solid black;
+  }
 /* Mobile Styles */
 @media (max-width: 768px) {
     .navbar__links {

@@ -10,6 +10,9 @@
     --umber-color:#635147;
     
 }
+:root {
+    overscroll-behavior: none;
+  }
 /* Utility class for colors */
 .u-text-umber { color: var(--umber-color); }
 .u-bg-umber { background-color: var(--umber-color); }
