@@ -156,6 +156,84 @@ a {
 table, th, td {
     border:1px solid black;
   }
+
+  /* containers css */
+  .breakpoint-table__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.breakpoint-table__thead {
+    background-color: #f5f5f5;
+}
+
+.breakpoint-table__header, .breakpoint-table__data {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.breakpoint-table__row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container-example__title {
+    margin: 20px 0 10px;
+}
+
+.container-example__box {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container-example__box--sm,
+.container-example__box--lg,
+.container-example__box--xl,
+.container-example__box--xxl {
+    margin: auto; /* Center align the div */
+}
+
+.container-example__box--sm {
+    max-width: 540px;
+}
+
+.container-example__box--lg {
+    max-width: 960px;
+}
+
+.container-example__box--xl {
+    max-width: 1140px;
+}
+
+.container-example__box--xxl {
+    max-width: 1320px;
+}
+.css-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.css-table__head {
+    background-color: #f9f9f9;
+}
+
+.css-table__header, 
+.css-table__data {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.css-table__body tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .navbar__links {
@@ -214,14 +292,13 @@ table, th, td {
 @media (min-width: 1140px) {
     .side-nav {
         display: block;
-    width: 250px;
-    position: fixed;
-    top: 55px;
-    min-height: 1000px;
-    left: 0;
-    z-index: 1;
+        width: 250px;
+        position: fixed;
+        top: 85px;
+        min-height: 1000px;
+        left: 0;
+        z-index: 1;
         background-color: var(--primary-bg-color);
-       
     }
 
     .navbar__links--open, .side-nav--open {
