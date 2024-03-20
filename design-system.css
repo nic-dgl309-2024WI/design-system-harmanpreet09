@@ -107,6 +107,14 @@ a {
     display: block;
     margin-top: 32px;
   }
+  .content_spacing{
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 32px;
+
+}
   
   .typography__level,
   .typography__size,
@@ -155,6 +163,7 @@ a {
 }
 table, th, td {
     border:1px solid black;
+    padding: 12px;
   }
 
   /* containers css */
