@@ -11,17 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Get current page URL
-//     const currentPage = window.location.pathname;
-    
-//     // Query all side navigation links
-//     const links = document.querySelectorAll('.side-nav__link');
+document.getElementById('navToggle').addEventListener('click', function() {
+    var navList = document.getElementById('navList');
+    if (navList.style.display === 'block') {
+        navList.style.display = 'none';
+    } else {
+        navList.style.display = 'block';
+    }
+});
+document.getElementById('navToggle').addEventListener('click', function() {
+    var navList = document.getElementById('navList');
+    navList.classList.toggle('active'); // This will add/remove the 'active' class
+});
 
-//     links.forEach(link => {
-//         if (link.href.includes(currentPage)) {
-//             // Add --active modifier class to the current page link
-//             link.classList.add('side-nav__link--active');
-//         }
-//     });
-// });
+
