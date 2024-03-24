@@ -633,13 +633,13 @@ u.hbs{
 /* Small devices (>= 576px) */
 @media (min-width: 576px) {
     .container, .container-sm {
-        max-width: 839px;
+        max-width: 983px;
     }
 }
 /* Large devices (>= 992px) */
 @media (min-width: 992px) {
     .container, .container-lg {
-        max-width: 1094px;
+        max-width: 1170px;
     }
 }
 /* X-Large devices (>= 1200px) */
