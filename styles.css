@@ -8,6 +8,7 @@
     --active-color: #ff4404 !important;
     --neutral-color:  #f9c9b7;
     --umber-color:#635147;
+    --white-bg:#fff;
     
 }
 :root {
@@ -22,6 +23,7 @@
 .u-bg-neutral{background-color: var(--neutral-color);}
 .u-secondary text{color: var(--secondary-text-color);}g
 .u-primary-bg-color{background-color: var( --primary-bg-color);}
+.u-cards-bg-color{background-color: var(--white-bg);}
 
 /* typography */
 
