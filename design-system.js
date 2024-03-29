@@ -86,6 +86,37 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoSlide();
 });
 
+function animateCard(card) {
+    card.style.transform = "scale(1.1)";
+}
+
+function resetCardAnimation(card) {
+    card.style.transform = "scale(1)";
+}
+
+document.querySelector('.products-section__show-more-btn').addEventListener('click', function() {
+    var additionalProducts = document.getElementById('additionalProducts');
+    
+    // Check if the section is currently shown
+    if (additionalProducts.classList.contains('show')) {
+      // Start the fade-out effect
+      additionalProducts.style.opacity = '0';
+      // Wait for the fade-out transition, then hide
+      setTimeout(function() {
+        additionalProducts.style.display = 'none';
+      }, 500); // Match the duration of the CSS opacity transition
+      additionalProducts.classList.remove('show');
+    } else {
+      // Show the section and start the fade-in effect
+      additionalProducts.style.display = 'block';
+      // Need a slight delay to ensure the element is visible before starting opacity transition
+      setTimeout(function() {
+        additionalProducts.style.opacity = '1';
+      }, 10);
+      additionalProducts.classList.add('show');
+    }
+  });
+  
 
 
 
