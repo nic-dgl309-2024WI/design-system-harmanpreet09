@@ -23,7 +23,7 @@
 .u-bg-neutral{background-color: var(--neutral-color);}
 .u-secondary text{color: var(--secondary-text-color);}g
 .u-primary-bg-color{background-color: var( --primary-bg-color);}
-.u-cards-bg-color{background-color: var(--white-bg);}
+.u-cards-bg-color{background-color: var(--white);}
 
 /* typography */
 
@@ -747,7 +747,114 @@ u.hbs{
     display: block; 
     opacity: 1;
   }
-
+  .gift-certificates {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gift-certificates__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .gift-certificates__subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+    color: #666;
+  }
+  
+  .gift-certificates__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gift-certificates__step {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .gift-certificates__step:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .gift-certificates__icon {
+    font-size: 30px;
+    color: var(--accent-color);
+    margin-right: 20px;
+  }
+  
+  .gift-certificates__info p {
+    margin: 0;
+  }
+  
+  .gift-certificates__link {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+  
+  .gift-certificates__link:hover {
+    text-decoration: none;
+  }
+  
+  .care-guide {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .care-guide__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Ensures even spacing between cards */
+  }
+  
+  .care-guide__card {
+    flex: 0 1 300px; /* Allows cards to be flexible but not smaller than 300px */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 20px;
+  }
+  
+  .care-guide__card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .care-guide__icon {
+    font-size: 48px;
+    color:var(--accent-color); /* A vibrant green for a lively look */
+    margin-bottom: 20px;
+  }
+  
+  .care-guide__content {
+    text-align: left;
+  }
+  
+  .care-guide__title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .care-guide__content p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+  
   
 /* Responsive styling */
 @media (max-width: 768px) {
