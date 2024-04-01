@@ -403,7 +403,54 @@
           
           
     </section>
-   
+    <section>
+        <h1 class="u-ff-heading u-fontsize-large u-fw-800 heading-center l-p-5 ">Get in touch</h1>
+        <div  class="contact">
+            <div class="contact__container">
+                <div class="contact__image-area">
+                  <img src="images/contact-img.jpg" alt="Decorative Image" class="contact__image">
+                </div>
+                <div class="contact__form-area">
+                    <h2 class="contact__heading">Talk to Our Plant Experts!</h2>
+                  <p class="contact__intro">Please fill out the form below</p>
+                  <form action="/submit-form" method="POST" class="contact__form">
+                  
+                    <label for="name" class="contact__label">Your Name</label>
+                    <input type="text" id="name" name="name" class="contact__input" required>
+                    
+                  
+                    <label for="email" class="contact__label">Email Address</label>
+                    <input type="email" id="email" name="email" class="contact__input" required>
+                    
+                  
+                    <label for="phone" class="contact__label">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="contact__input">
+                    
+                   
+                    <label for="type" class="contact__label">Type of problems</label>
+                    <select id="event-type" name="type" class="contact__select">
+                      <option value="">Please select an option</option>
+                    
+                    </select>
+                    
+                   
+                    <label for="date" class="contact__label">Event Date</label>
+                    <input type="date" id="date" name="date" class="contact__input">
+                    
+                  
+                    <label for="message" class="contact__label">How can we help?</label>
+                    <textarea id="message" name="message" class="contact__textarea" rows="4" required></textarea>
+                    
+                  
+                    <button type="submit" class="contact__submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+        </div>
+      
+      </section>
+      
+      
       
 
 
