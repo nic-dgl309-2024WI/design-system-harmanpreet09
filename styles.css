@@ -835,7 +835,7 @@ u.hbs{
   
   .care-guide__icon {
     font-size: 48px;
-    color:var(--accent-color); /* A vibrant green for a lively look */
+    color:var(--accent-color);
     margin-bottom: 20px;
   }
   
@@ -855,7 +855,52 @@ u.hbs{
     margin: 0;
   }
   
+  .planting-faq {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
   
+  .planting-faq__container {
+    margin-top: 20px;
+  }
+  
+  .planting-faq__item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensures rounded corners */
+  }
+  
+  .planting-faq__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--umber-color);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .planting-faq__icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .planting-faq__item.active .planting-faq__icon {
+    transform: rotate(180deg);
+  }
+  
+  .planting-faq__answer {
+    display: none;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+  }
+   
 /* Responsive styling */
 @media (max-width: 768px) {
     .nav {
