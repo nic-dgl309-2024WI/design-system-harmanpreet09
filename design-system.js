@@ -134,3 +134,24 @@ document.querySelector('.products-section__show-more-btn').addEventListener('cli
   
   
 
+  document.addEventListener('DOMContentLoaded', function () {
+    var testimonials = document.querySelectorAll('.testimonials__item');
+    var currentIndex = 0;
+  
+    function navigate(direction) {
+      testimonials[currentIndex].classList.remove('testimonials__item--active');
+      if (direction === 'next') {
+        currentIndex = (currentIndex + 1) % testimonials.length;
+      } else if (direction === 'prev') {
+        currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+      }
+      testimonials[currentIndex].classList.add('testimonials__item--active');
+    }
+  
+    document.querySelectorAll('.testimonials__control').forEach(function (control) {
+      control.addEventListener('click', function () {
+        navigate(control.getAttribute('data-direction'));
+      });
+    });
+  });
+  
