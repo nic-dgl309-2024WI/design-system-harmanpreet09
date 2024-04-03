@@ -155,3 +155,24 @@ document.querySelector('.products-section__show-more-btn').addEventListener('cli
     });
   });
   
+  function copyCode() {
+    // Create a textarea element
+    var textArea = document.createElement("textarea");
+    // This is the code you want to copy.
+    var codeToCopy = '<img src="images/contact-img.jpg" alt="Decorative Image" class="contact__image">';
+    // Set the value of the textarea to the code you want to copy
+    textArea.value = codeToCopy;
+    // Make the textarea out of viewport
+    textArea.style.position = "absolute";
+    textArea.style.left = "-9999px";
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    // Cleanup: remove the textarea
+    document.body.removeChild(textArea);
+    // Optional: Let the user know the text was copied
+    alert("Code copied to clipboard!");
+  }
+  
+  
+  

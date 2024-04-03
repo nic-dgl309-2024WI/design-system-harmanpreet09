@@ -240,7 +240,29 @@ table, th, td {
     width: 33%;
 }
 
-
+.code-snippet {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .code-snippet__code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 10px; /* Spacing between the code and the button */
+  }
+  
+  .code-snippet__button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  
 /* Mobile Styles */
 
 @media (min-width: 576px)
