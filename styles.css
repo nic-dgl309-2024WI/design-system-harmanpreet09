@@ -1136,6 +1136,35 @@ u.hbs{
     padding: 4px;
   }
   
+  .coming-soon {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .coming-soon__container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .coming-soon__title {
+    font-size: 36px;
+  }
+  
+  .coming-soon__description {
+    margin: 20px 0;
+  }
+  
+  .coming-soon__form {
+    margin-top: 30px;
+  }
+  
+  .coming-soon__input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
   
 /* Responsive styling */
 @media (max-width: 768px) {
