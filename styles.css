@@ -635,6 +635,15 @@ u.hbs{
     text-align: center;
     border-radius: 12px;
 }
+.carousel-caption__text  {
+    position: absolute;
+    bottom:42%;
+    padding: 90px;
+   color:var(--primary-text-color);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 12px;
+}
 
 .carousel-control-prev, .carousel-control-next {
     position: absolute;
