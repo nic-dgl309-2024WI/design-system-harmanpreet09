@@ -218,4 +218,14 @@ document.querySelector('.products-section__show-more-btn').addEventListener('cli
     document.body.removeChild(textArea);
     alert("Code copied to clipboard!");
   }
+  function copyCode() {
+    const textArea = document.createElement("textarea");
+    const codeToCopy = document.getElementById("codeSnippet").innerText;
+    textArea.value = codeToCopy;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Code copied to clipboard!");
+  }
   
