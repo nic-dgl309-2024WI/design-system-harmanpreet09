@@ -540,6 +540,32 @@ u.hbs{
   
 /* nav bar css */
 /* Basic styling */
+.announcement-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:var(--accent-color); /* Change to your desired background color */
+    color:var(--primary-text-color); /* Change to your desired text color */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.announcement-bar__marquee {
+    display: flex;
+    width: calc(100% + 1rem); /* Adding extra width to accommodate space between loops */
+    animation: marquee 20s linear infinite;
+}
+
+.announcement-bar__text {
+    flex-shrink: 0;
+    padding-right: 1rem; /* Add space between the loops */
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+
 .nav {
     display: flex;
     justify-content: space-between; 
