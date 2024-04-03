@@ -756,6 +756,7 @@ u.hbs{
     display: block; 
     opacity: 1;
   }
+  /* styles for gift and certificates */
   .gift-certificates {
     max-width: 800px;
     margin: 0 auto;
@@ -855,7 +856,7 @@ u.hbs{
   .care-guide__content p {
     margin: 0;
   }
-  
+  /* Resources styling */
   .planting-faq {
     width: 60%;
     /* margin: 0 auto; */
@@ -898,6 +899,7 @@ u.hbs{
     text-align: left;
     background:var(--primary-text-color);
   }
+  /* about section */
    
   .about {
     padding: 50px 10%;
@@ -998,7 +1000,7 @@ u.hbs{
     justify-content: center;
    
   } */
-  
+  /* contact styling */
   .contact__container {
     /* display: flex; */
     max-width: 1200px;
@@ -1074,6 +1076,7 @@ u.hbs{
   .contact__submit:hover {
     background-color: var(--accent-color);
   }
+  /* footer styling */
   .footer {
    
     color: var(--primary-text-color); 
@@ -1135,7 +1138,7 @@ u.hbs{
     border-radius: 9px;
     padding: 4px;
   }
-  
+  /* coming-soon page */
   .coming-soon {
     text-align: center;
     padding: 50px 0;
