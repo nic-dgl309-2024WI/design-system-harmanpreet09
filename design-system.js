@@ -25,7 +25,7 @@ document.getElementById('navToggle').addEventListener('click', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const slides = document.querySelectorAll(".carousel-slid");
+    const slides = document.querySelectorAll(".carousel-slide");
     const paginationContainer = document.querySelector(".carousel-pagination");
     let currentSlideIndex = 0;
     let autoSlideInterval;
@@ -196,6 +196,26 @@ document.querySelector('.products-section__show-more-btn').addEventListener('cli
     document.body.removeChild(textArea);
     alert("Code copied to clipboard!");
   }
+  function copyCode() {
+    const textArea = document.createElement("textarea");
+    const codeToCopy = document.getElementById("codeSnippet").innerText;
+    textArea.value = codeToCopy;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Code copied to clipboard!");
+  }
   
   
+  function copyCode() {
+    const textArea = document.createElement("textarea");
+    const codeToCopy = document.getElementById("codeSnippet").innerText;
+    textArea.value = codeToCopy;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Code copied to clipboard!");
+  }
   
