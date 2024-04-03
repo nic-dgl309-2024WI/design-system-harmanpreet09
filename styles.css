@@ -992,13 +992,10 @@ u.hbs{
   }
   
   .contact__form {
-    display: flex;
     flex-direction: column;
   }
   
   .contact__label {
-   
-    
     margin-bottom: 0.5rem;
   }
   
@@ -1075,18 +1072,6 @@ u.hbs{
   .footer__social-icons {
     /* Styles for social icons */
   }
-  
-  .footer__newsletter-form {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .footer__input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-  }
-  
   .footer__map-container {
     height: 200px;
     width: 100%; 
@@ -1248,9 +1233,9 @@ u.hbs{
 @media (min-width: 1140px) {
     .nav {
     
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         padding: 1em 2em;
     }
     .products-section {
