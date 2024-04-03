@@ -1134,7 +1134,6 @@ u.hbs{
   }
   .social__icon{
     font-size: 38px;
-    background:var( --primary-bg-color);
     border-radius: 9px;
     padding: 4px;
   }
