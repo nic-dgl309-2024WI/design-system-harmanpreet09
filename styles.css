@@ -446,7 +446,7 @@ u.hbs{
   }
   
   .l-grid-columns-3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   
   .l-grid-rows-2 {
@@ -505,7 +505,6 @@ u.hbs{
 .l-align-center {
     display: flex; /* To apply align-items, ensure display:flex is set */
     align-items: center;
-    height: 100px; /* Added height to better demonstrate alignment */
 }
 
 .l-grid {
@@ -517,7 +516,7 @@ u.hbs{
 }
 
 .l-grid-columns-3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .l-grid-rows-2 {
@@ -587,15 +586,12 @@ u.hbs{
 }
 
 .carousel-container {
-    display: flex;
     transition: transform 0.5s ease;
 }
 
 .carousel-slide {
     flex: 0 0 100%;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
     position: relative;
 }
 
@@ -658,8 +654,6 @@ u.hbs{
 
 
 .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -701,9 +695,6 @@ u.hbs{
     cursor: pointer;
   }
   .products-section__show-more {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
     padding: 20px 0; 
   }
   #additionalProducts {
@@ -742,7 +733,6 @@ u.hbs{
   }
   
   .gift-certificates__step {
-    display: flex;
     align-items: flex-start;
     background:var(--primary-text-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -783,14 +773,12 @@ u.hbs{
   }
   
   .care-guide__container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px; /* Ensures even spacing between cards */
+    gap: 20px; 
   }
   
   .care-guide__card {
-    flex: 0 1 300px; /* Allows cards to be flexible but not smaller than 300px */
+    flex: 0 1 300px;
     background:var(--primary-text-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -822,7 +810,7 @@ u.hbs{
   
   .planting-faq {
     width: 60%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
   }
   
@@ -839,9 +827,7 @@ u.hbs{
   }
   
   .planting-faq__question {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
     background-color: var(--umber-color);
     color: var(--primary-text-color);
@@ -866,15 +852,10 @@ u.hbs{
   }
    
   .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 50px 10%;
   }
   
   .about__content {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
@@ -963,15 +944,15 @@ u.hbs{
   }
   
   
-  .contact {
+  /* .contact {
     display: flex;
     align-items: center;
     justify-content: center;
    
-  }
+  } */
   
   .contact__container {
-    display: flex;
+    /* display: flex; */
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
