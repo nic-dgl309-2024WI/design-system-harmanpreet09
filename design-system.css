@@ -261,6 +261,28 @@ table, th, td {
     color: white;
     border-radius: 5px;
   }
+  .breadcrumbs {
+    font-family: Arial, sans-serif; /* Example font */
+  }
+  
+  .breadcrumbs__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .breadcrumbs__item {
+    display: inline; /* Display items inline */
+  }
+  
+  .breadcrumbs__link {
+    color: #0275d8; /* Example color for links */
+    text-decoration: none;
+  }
+  
+  .breadcrumbs__separator {
+    margin: 0 5px; /* Spacing around separators */
+    color: #6c757d; /* Example color for separator */
+  }
   
   
 /* Mobile Styles */
@@ -399,6 +421,13 @@ table, th, td {
           margin-right: auto;
           display: block;
           margin-top: 32px;
+        }
+        .content__main{
+            width: 63%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 32px;
         }
         .spacing-text {
             margin-left: 16%;

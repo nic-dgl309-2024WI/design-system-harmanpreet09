@@ -173,6 +173,19 @@ document.querySelector('.products-section__show-more-btn').addEventListener('cli
     // Optional: Let the user know the text was copied
     alert("Code copied to clipboard!");
   }
+  function copyCode() {
+    var textArea = document.createElement("textarea");
+    var codeToCopy = document.getElementById("codeSnippet").innerText;
+    textArea.value = codeToCopy;
+    textArea.style.position = "absolute";
+    textArea.style.left = "-9999px";
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Code copied to clipboard!");
+  }
+  
   
   
   
