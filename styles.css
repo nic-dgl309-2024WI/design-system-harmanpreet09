@@ -701,13 +701,13 @@ u.hbs{
 }
 
 
-.product-grid {
+.c__grid {
     gap: 20px;
     padding: 20px;
 }
 
 /* Base styles for product cards */
-.product-card {
+.c__card {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -715,17 +715,17 @@ u.hbs{
     background: var(--primary-text-color);
 }
 
-.product-card__image-container {
+.c__card__image-container {
     line-height: 0;
 }
 
-.product-card__image {
+.c__card__image {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.product-card__content {
+.c__card__content {
     padding: 15px;
 }
   
@@ -734,7 +734,7 @@ u.hbs{
     text-align: center;
   }
 
-  .products-section__show-more-btn {
+  .btn__show-more-btn {
     padding: 10px 20px;
     font-size: 16px;
     color:var(--primary-text-color); 
@@ -742,20 +742,7 @@ u.hbs{
     border-radius: 5px;
     cursor: pointer;
   }
-  .products-section__show-more {
-    padding: 20px 0; 
-  }
-  #additionalProducts {
-    display: none; 
-    opacity: 0; 
-    transition: opacity 0.5s ease; 
-  }
-  
-  /* Class to be added via JavaScript for showing the products */
-  #additionalProducts.show {
-    display: block; 
-    opacity: 1;
-  }
+ 
   /* styles for gift and certificates */
   .gift-certificates {
     max-width: 800px;
@@ -917,12 +904,14 @@ u.hbs{
   }
   
   .about__title {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    
   }
   
   .about__description {
     margin-bottom: 2rem;
-  }
+    line-height: 1.5rem;
+}
   
   .about__cta {
     background-color: var(--accent-color);
@@ -1222,24 +1211,24 @@ u.hbs{
     .testimonials__grid {
         grid-template-columns: 1fr;
       }
-      .product-grid {
+      .c__grid {
         grid-template-columns: 1fr; /* Stacks the cards into one column */
-        padding: 10px; /* Adjust padding for smaller screens if necessary */
+         /* Adjust padding for smaller screens if necessary */
     }
 
-    .product-card {
+    .card-section {
         /* Adjust card styling for smaller screens if necessary */
         margin-bottom: 20px; /* Adds space between stacked cards */
     }
 
     /* Adjust content padding if needed */
-    .product-card__content {
+    .c__card__content {
         padding: 10px;
     }
 
     /* Adjust title and description size if needed */
-    .product-card__title, 
-    .product-card__description {
+    .c__card__title, 
+    .c__card__description {
         font-size: calc(12px + 1vw); /* Example of responsive font sizing */
     }
     .footer {
@@ -1280,6 +1269,28 @@ u.hbs{
         padding-right: 0;
         margin-bottom: 20px;
       }
+      .gift-certificates__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.care-guide__title {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 23px;
+}
+.about__title {
+    margin-bottom: 1rem;
+    font-size: 33px;
+}
+.about__description {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+ .testimonials {
+    text-align: center;
+    padding-top:0;
+  }
     }
     
 @media (max-width: 480px) {
@@ -1298,15 +1309,41 @@ u.hbs{
     .carousel-caption h1, .carousel-caption h2 {
         font-size: calc(10px + 2vw); /* Even smaller text for very small devices */
     }
-    .product-card__content {
+    .c__card__content {
         padding: 10px;
     }
 
 
-    .products-section__show-more-btn {
+    .card-section__show-more-btn {
         padding: 8px 16px;
         
     }
+    .gift-certificates__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.care-guide__title {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 23px;
+}
+.about__title {
+    margin-bottom: 1rem;
+    font-size: 33px;
+}
+.about__description {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+ .testimonials {
+    text-align: center;
+
+  }
+  .testimonials {
+    text-align: center;
+    padding-top:0;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -1316,8 +1353,12 @@ u.hbs{
         justify-content: space-between;
         /* align-items: center; */
         padding: 1em 2em;
+        position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 999;
     }
-    .products-section {
+    .card-section {
         display: flex;
         justify-content: center;
         align-items: center;
