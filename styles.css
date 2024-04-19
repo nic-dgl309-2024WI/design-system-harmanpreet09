@@ -1376,6 +1376,9 @@ u.hbs{
     text-align: center;
     padding-top:0;
   }
+  .heading__contact{
+    padding: 32px !important;
+  }
 }
 
 @media (min-width: 1140px) {
