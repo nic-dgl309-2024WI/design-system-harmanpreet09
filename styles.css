@@ -742,6 +742,8 @@ u.hbs{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 200px;
+    text-align: center;
   }
  
   /* styles for gift and certificates */
@@ -863,7 +865,7 @@ u.hbs{
     overflow: hidden; /* Ensures rounded corners */
   }
   
-  .accordian__question {
+  .accordian__heading {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: var(--umber-color);
@@ -881,7 +883,7 @@ u.hbs{
     transform: rotate(180deg);
   }
   
-  .accordian__answer {
+  .accordian__paragraph {
     display: none;
     padding: 20px;
     text-align: left;
@@ -890,8 +892,11 @@ u.hbs{
   /* about section */
    
   .about {
-    padding: 50px 10%;
-  }
+    padding: 18px 7%;
+}
+.about__image{
+  margin-top: 24px;
+} 
   
   .about__content {
     justify-content: space-between;
@@ -1314,7 +1319,14 @@ u.hbs{
         padding: 10px;
     }
 
-
+.heading-center{
+  padding: 19px 0 6px !important;
+    font-size: 31px !important;
+    text-align: center;
+}
+.c__grid{
+  padding-bottom: 0;
+}
     .card-section__show-more-btn {
         padding: 8px 16px;
         
@@ -1322,12 +1334,31 @@ u.hbs{
     .c__lists__title {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 19px;
 }
 .card__item__title {
     margin: 0 0 10px 0;
     text-align: center;
     font-size: 23px;
+}
+.c__card__title{
+  margin-bottom: 9px;
+    font-size: 19px;
+}
+.c__card__description{
+  font-size: 15px;
+    margin-bottom: 5px;
+}
+.btn__show-more{
+  padding-top: 23px;
+}
+.card-section{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.accordian__title{
+  font-size: 18px;
+    padding-top: 13px;
 }
 .about__title {
     margin-bottom: 1rem;
