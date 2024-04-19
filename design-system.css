@@ -420,7 +420,9 @@ table, th, td {
         z-index: 1;
         background-color: var(--primary-bg-color);
     }
-
+.list__style{
+    list-style-type: disc;
+}
     .navbar__links--open, .side-nav--open {
         display: block;
     }
