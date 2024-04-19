@@ -446,6 +446,9 @@ table, th, td {
     .heading__color{
         padding-left: 10rem;
     }
+    .text__center{
+        text-align: center;
+    }
 }
 
 
