@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 a {
     text-decoration: none;
     color: var(--clr-primary);
@@ -344,9 +347,7 @@ table, th, td {
 
 @media (min-width: 699px){
 
-    .container, .container-sm {
-        max-width: 100%
-    }
+   
     .content {
         margin-top: 0;
         width: 98%;
@@ -449,6 +450,13 @@ table, th, td {
     .text__center{
         text-align: center;
     }
+    .content{
+        width: 98%;
+    /* margin-left: auto; */
+    margin-right: auto;
+    /* padding: 0; */
+    padding-left: 20rem;
+    }
 }
 
 
@@ -482,13 +490,7 @@ table, th, td {
         /* height: calc(177vh - 50px);
     width: 100%; */
     }
-    .content{
-        width: 98%;
-        /* margin-left: auto; */
-        margin-right: auto;
-        /* padding: 0; */
-        padding-left: 20rem;
-        }
+   
         .content__main{
             width: 63%;
             margin-left: auto;
