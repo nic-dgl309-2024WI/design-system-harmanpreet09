@@ -845,17 +845,17 @@ u.hbs{
     margin: 0;
   }
   /* Resources styling */
-  .planting-faq {
+  .accordian {
     width: 60%;
     /* margin: 0 auto; */
     text-align: center;
   }
   
-  .planting-faq__container {
+  .accordian__container {
     margin-top: 20px;
   }
   
-  .planting-faq__item {
+  .accordian__item {
     background: var(--primary-text-color);
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -863,7 +863,7 @@ u.hbs{
     overflow: hidden; /* Ensures rounded corners */
   }
   
-  .planting-faq__question {
+  .accordian__question {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: var(--umber-color);
@@ -873,15 +873,15 @@ u.hbs{
     cursor: pointer;
   }
   
-  .planting-faq__icon {
+  .accordian__icon {
     transition: transform 0.3s ease;
   }
   
-  .planting-faq__item.active .planting-faq__icon {
+  .accordian__item.active .accordian__icon {
     transform: rotate(180deg);
   }
   
-  .planting-faq__answer {
+  .accordian__answer {
     display: none;
     padding: 20px;
     text-align: left;
