@@ -377,6 +377,7 @@ u.hbs{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
+
 .l-px-4{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -744,31 +745,31 @@ u.hbs{
   }
  
   /* styles for gift and certificates */
-  .gift-certificates {
+  .c__lists {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  .gift-certificates__title {
+  .c__lists__title {
     text-align: center;
     margin-bottom: 10px;
   }
   
-  .gift-certificates__subtitle {
+  .c__lists__subtitle {
     text-align: center;
     margin-bottom: 30px;
     
 
   }
   
-  .gift-certificates__list {
+  .c__lists__list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .gift-certificates__step {
+  .c__lists__step {
     align-items: flex-start;
     background:var(--primary-text-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -778,42 +779,42 @@ u.hbs{
     transition: box-shadow 0.3s ease;
   }
   
-  .gift-certificates__step:hover {
+  .c__lists__step:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   }
   
-  .gift-certificates__icon {
+  .c__lists__icon {
     font-size: 30px;
     color: var(--accent-color);
     margin-right: 20px;
   }
   
-  .gift-certificates__info p {
+  .c__lists__info p {
     margin: 0;
   }
   
-  .gift-certificates__link {
+  .c__lists__link {
     color: var(--accent-color);
     text-decoration: underline;
   }
   
-  .gift-certificates__link:hover {
+  .c__lists__link:hover {
     text-decoration: none;
   }
   
-  .care-guide {
+  .card__item {
     max-width: 960px;
     margin: 0 auto;
     padding: 40px 0;
     text-align: center;
   }
   
-  .care-guide__container {
+  .card__item__container {
     justify-content: space-around;
     gap: 20px; 
   }
   
-  .care-guide__card {
+  .card__item__card {
     flex: 0 1 300px;
     background:var(--primary-text-color);
     border-radius: 8px;
@@ -822,25 +823,25 @@ u.hbs{
     padding: 20px;
   }
   
-  .care-guide__card:hover {
+  .card__item__card:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   }
   
-  .care-guide__icon {
+  .card__item__icon {
     font-size: 48px;
     color:var(--accent-color);
     margin-bottom: 20px;
   }
   
-  .care-guide__content {
+  .card__item__content {
     text-align: left;
   }
   
-  .care-guide__title {
+  .card__item__title {
     margin: 0 0 10px 0;
   }
   
-  .care-guide__content p {
+  .card__item__content p {
     margin: 0;
   }
   /* Resources styling */
@@ -1269,12 +1270,12 @@ u.hbs{
         padding-right: 0;
         margin-bottom: 20px;
       }
-      .gift-certificates__title {
+      .c__lists__title {
     text-align: center;
     margin-bottom: 10px;
     font-size: 1.5rem;
 }
-.care-guide__title {
+.card__item__title {
     margin: 0 0 10px 0;
     text-align: center;
     font-size: 23px;
@@ -1318,12 +1319,12 @@ u.hbs{
         padding: 8px 16px;
         
     }
-    .gift-certificates__title {
+    .c__lists__title {
     text-align: center;
     margin-bottom: 10px;
     font-size: 1.5rem;
 }
-.care-guide__title {
+.card__item__title {
     margin: 0 0 10px 0;
     text-align: center;
     font-size: 23px;
