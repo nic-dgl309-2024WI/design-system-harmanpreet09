@@ -50,7 +50,7 @@ a {
 }
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 20px;
   }
@@ -59,7 +59,7 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 10px;
-    width: 300px;
+    width: 472px;
     overflow: hidden;
   }
   
@@ -442,6 +442,9 @@ table, th, td {
 @media (min-width: 1400px) {
     .container, .container-xxl {
         max-width: 1556px;
+    }
+    .heading__color{
+        padding-left: 10rem;
     }
 }
 
