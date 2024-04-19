@@ -892,6 +892,30 @@ u.hbs{
     text-align: left;
     background:var(--primary-text-color);
   }
+  .accordian {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.accordian__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.accordian__column {
+    flex-basis: 48%; /* Adjust the width of each column */
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 768px) {
+  .accordian__column {
+    flex-basis: 100%;
+}
+}
+
   /* about section */
    
   .about {
@@ -1172,6 +1196,9 @@ u.hbs{
         flex-direction: column; 
         align-items: flex-start; 
     }
+    .accordian__row{
+      display: block;
+    }
 
     .nav__list {
         display: none;
@@ -1300,6 +1327,9 @@ u.hbs{
     text-align: center;
     padding-top:0;
   }
+  .accordian__row{
+    display: block;
+  }
     }
     
 @media (max-width: 480px) {
@@ -1307,6 +1337,12 @@ u.hbs{
         padding: 10px;
         bottom: 40%; /* Adjust based on your needs */
     }
+    .accordian__column {
+      flex-basis: 100%;
+  }
+  .accordian__row{
+    display: block;
+  }
 
     .carousel-control-prev, .carousel-control-next {
         font-size: 15px;
