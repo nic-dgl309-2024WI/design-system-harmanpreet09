@@ -541,7 +541,7 @@ u.hbs{
   
 /* nav bar css */
 /* Basic styling */
-.announcement-bar {
+.upper__header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -550,13 +550,13 @@ u.hbs{
     z-index: 1000; /* Ensure it stays on top */
 }
 
-.announcement-bar__marquee {
+.upper__header__marquee {
     display: flex;
     width: calc(100% + 1rem); /* Adding extra width to accommodate space between loops */
     animation: marquee 20s linear infinite;
 }
 
-.announcement-bar__text {
+.upper__header__text {
     flex-shrink: 0;
     padding-right: 1rem; /* Add space between the loops */
 }
@@ -612,22 +612,22 @@ u.hbs{
     max-height: 600px;
 }
 
-.carousel-container {
+.carousel__container {
     transition: transform 0.5s ease;
 }
 
-.carousel-slide {
+.carousel__slide {
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
 }
 
-.carousel-slide img {
+.carousel__slide img {
     width: 100%;
     vertical-align: middle;
 }
 
-.carousel-caption {
+.carousel__caption {
     position: absolute;
     bottom:61%;
     padding: 90px;
@@ -636,7 +636,7 @@ u.hbs{
     text-align: center;
     border-radius: 12px;
 }
-.carousel-caption__text  {
+.carousel__caption__text  {
     position: absolute;
     bottom:42%;
     padding: 90px;
@@ -667,14 +667,14 @@ u.hbs{
 .carousel-control-next {
     right: 10px;
 }
-.carousel-pagination {
+.carousel__pagination {
     text-align: center;
     position: absolute;
     bottom: 10px;
     width: 100%;
 }
 
-.carousel-pagination-dot {
+.carousel__pagination-dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -684,10 +684,10 @@ u.hbs{
     display: inline-block;
 }
 
-.carousel-pagination-dot.active {
+.carousel__pagination-dot.active {
     background-color: #717171;
 }
-.carousel-pagination-dot-1 {
+.carousel__pagination-dot-1 {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -697,7 +697,7 @@ u.hbs{
     display: inline-block;
 }
 
-.carousel-pagination-dot.active {
+.carousel__pagination-dot.active {
     background-color: #717171;
 }
 
@@ -1194,7 +1194,7 @@ u.hbs{
         width: 100%; 
         padding: 10px 0;
     }
-    .carousel-caption {
+    .carousel__caption {
         padding: 51px;
     bottom: 26%;
     }
@@ -1206,7 +1206,7 @@ u.hbs{
         line-height: 30px;
     }
 
-    .carousel-caption h1, .carousel-caption h2 {
+    .carousel__caption h1, .carousel__caption h2 {
         font-size: calc(12px + 2vw); /* Adjust text size based on viewport width */
     }
     .custom__cards__grid {
@@ -1295,7 +1295,7 @@ u.hbs{
     }
     
 @media (max-width: 480px) {
-    .carousel-caption {
+    .carousel__caption {
         padding: 10px;
         bottom: 40%; /* Adjust based on your needs */
     }
@@ -1307,7 +1307,7 @@ u.hbs{
         line-height: 25px;
     }
 
-    .carousel-caption h1, .carousel-caption h2 {
+    .carousel__caption h1, .carousel__caption h2 {
         font-size: calc(10px + 2vw); /* Even smaller text for very small devices */
     }
     .c__card__content {

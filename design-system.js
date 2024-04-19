@@ -25,8 +25,8 @@ document.getElementById('navToggle').addEventListener('click', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const slides = document.querySelectorAll(".carousel-slide");
-    const paginationContainer = document.querySelector(".carousel-pagination");
+    const slides = document.querySelectorAll(".carousel__slide");
+    const paginationContainer = document.querySelector(".carousel__pagination");
     let currentSlideIndex = 0;
     let autoSlideInterval;
 
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function createPagination() {
         slides.forEach((_, index) => {
             let dot = document.createElement("span");
-            dot.classList.add("carousel-pagination-dot");
+            dot.classList.add("carousel__pagination-dot");
             dot.addEventListener("click", () => {
                 moveToSlide(index);
             });
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updatePagination() {
-        const dots = document.querySelectorAll(".carousel-pagination-dot");
+        const dots = document.querySelectorAll(".carousel__pagination-dot");
         dots.forEach(dot => dot.classList.remove("active"));
         dots[currentSlideIndex].classList.add("active");
     }
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         currentSlideIndex = index;
         const offset = -currentSlideIndex * 100; // Assuming each slide is 100% of the viewport width
-        const slideContainer = document.querySelector(".carousel-container");
+        const slideContainer = document.querySelector(".carousel__container");
         slideContainer.style.transform = `translateX(${offset}%)`;
         updatePagination();
     }
