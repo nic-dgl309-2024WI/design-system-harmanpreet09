@@ -636,6 +636,9 @@ u.hbs{
     text-align: center;
     border-radius: 12px;
 }
+.caption__carousel{
+  bottom:35%;
+}
 .carousel__caption__text  {
     position: absolute;
     bottom:42%;
